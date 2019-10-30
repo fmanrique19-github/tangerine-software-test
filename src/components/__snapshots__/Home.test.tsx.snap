@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home Component Should display div tag 1`] = `<div />`;
+
+exports[`Home Component Should display home page with no albums and no photos 1`] = `
+<div>
+  <nav
+    className="navbar-dark fixed-top orange darken-1 navbar navbar-expand-md pt-3"
+    data-test="navbar"
+    role="navigation"
+  >
+    <a
+      aria-current={null}
+      className="navbar-brand"
+      data-test="navbar-brand"
+      href="/home"
+      onClick={[Function]}
+    >
+      <h2>
+        <span
+          className="float-left mr-2"
+        >
+          <svg
+            fill="none"
+            height="32"
+            id="i-photo"
+            stroke="currentcolor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="2"
+            viewBox="0 0 32 32"
+            width="32"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M20 24 L12 16 2 26 2 2 30 2 30 24 M16 20 L22 14 30 22 30 30 2 30 2 24"
+            />
+            <circle
+              cx="10"
+              cy="9"
+              r="3"
+            />
+          </svg>
+        </span>
+        Magic Photos
+      </h2>
+    </a>
+    <button
+      className="navbar-toggler"
+      data-test="navbar-toggler"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      data-test="collapse"
+      style={Object {}}
+    >
+      <ul
+        className="navbar-nav mr-auto"
+        data-test="navbar-nav"
+      >
+        <li
+          className="nav-item active"
+          data-test="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link Ripple-parent h5-responsive"
+            data-test="nav-link"
+            href="/home"
+            onClick={[Function]}
+            onMouseUp={[Function]}
+            onTouchStart={[Function]}
+          >
+            Home
+            <div
+              className="Ripple "
+              data-test="waves"
+              style={
+                Object {
+                  "height": "0px",
+                  "left": "0px",
+                  "top": "0px",
+                  "width": "0px",
+                }
+              }
+            />
+          </a>
+        </li>
+        <li
+          className="nav-item"
+          data-test="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link Ripple-parent h5-responsive"
+            data-test="nav-link"
+            href="/author"
+            onClick={[Function]}
+            onMouseUp={[Function]}
+            onTouchStart={[Function]}
+          >
+            Author
+            <div
+              className="Ripple "
+              data-test="waves"
+              style={
+                Object {
+                  "height": "0px",
+                  "left": "0px",
+                  "top": "0px",
+                  "width": "0px",
+                }
+              }
+            />
+          </a>
+        </li>
+      </ul>
+      <ul
+        className="navbar-nav ml-auto"
+        data-test="navbar-nav"
+      >
+        <li
+          className="nav-item"
+          data-test="nav-item"
+        >
+          <a
+            aria-current={null}
+            className="nav-link Ripple-parent"
+            data-test="nav-link"
+            href="/logout"
+            onClick={[Function]}
+            onMouseUp={[Function]}
+            onTouchStart={[Function]}
+          >
+            <h4>
+              <strong>
+                Admin
+              </strong>
+               (logout)
+              <div
+                className="float-right ml-2"
+              >
+                <svg
+                  fill="none"
+                  height="32"
+                  id="i-signout"
+                  stroke="currentcolor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 32 32"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M28 16 L8 16 M20 8 L28 16 20 24 M11 28 L3 28 3 4 11 4"
+                  />
+                </svg>
+              </div>
+            </h4>
+            <div
+              className="Ripple "
+              data-test="waves"
+              style={
+                Object {
+                  "height": "0px",
+                  "left": "0px",
+                  "top": "0px",
+                  "width": "0px",
+                }
+              }
+            />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div
+    className="container-fluid tangerine-container"
+    data-test="container"
+  >
+    <div
+      className="row"
+      data-test="row"
+    >
+      <div
+        className="col-md-12"
+        data-test="col"
+      >
+        <div
+          className="jumbotron"
+          data-test="jumbotron"
+        >
+          <h1
+            className="text-center"
+          >
+            There is no albums available
+          </h1>
+        </div>
+      </div>
+      <div
+        className="col tangerine-fixed d-none"
+        data-test="col"
+      >
+        <div
+          className="jumbotron"
+          data-test="jumbotron"
+        >
+          <h1
+            className="text-center"
+          >
+            There is no photos available
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer
+    className="page-footer blue font-small pt-4 mt-4"
+    data-test="footer"
+  >
+    <div
+      className="footer-copyright text-center py-3"
+    >
+      <div
+        className="container-fluid"
+        data-test="container"
+      >
+        © 
+        2019
+         Copyright - 
+        <a
+          className="text-white"
+          href="http://www.tangerinesoftware.com"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+           tangerine 1.0
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

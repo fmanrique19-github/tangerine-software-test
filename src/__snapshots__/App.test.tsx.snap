@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="container tangerine-login"
+  data-test="container"
+>
+  <div
+    className="row"
+    data-test="row"
+  >
+    <div
+      className="col"
+      data-test="col"
+    >
+      <div
+        className="card"
+        data-test="card"
+      >
+        <div
+          className="header pt-3 warning-color-dark lighten-2"
+        >
+          <h3
+            className="text-white mt-3 mb-4 pb-1 mx-5"
+          >
+            Log in
+          </h3>
+        </div>
+        <div
+          className="card-body"
+          data-test="card-body"
+        >
+          <img
+            alt="Tangerine Software"
+            className="app-logo"
+            src="https://i.ibb.co/smryvqs/tangerine-logo.jpg"
+          />
+          <div
+            className="grey-text"
+          >
+            <div
+              className="mr-2 float-left"
+            >
+              <svg
+                fill="none"
+                height="32"
+                id="i-user"
+                stroke="currentcolor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                viewBox="0 0 32 32"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 11 C22 16 19 20 16 20 13 20 10 16 10 11 10 6 12 3 16 3 20 3 22 6 22 11 Z M4 30 L28 30 C28 21 22 20 16 20 10 20 4 21 4 30 Z"
+                />
+              </svg>
+            </div>
+            <div
+              className="md-form"
+            >
+              <i
+                className="fa fa-none prefix"
+                data-test="fa"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              />
+              <input
+                className="form-control"
+                data-test="input"
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInput={[Function]}
+                required={true}
+                type="text"
+                value=""
+              />
+              <label
+                className=""
+                data-error="eeeded"
+                data-success=""
+                onClick={[Function]}
+              >
+                Username
+              </label>
+            </div>
+            <div
+              className="mr-2 float-left"
+            >
+              <svg
+                fill="none"
+                height="32"
+                id="i-lock"
+                stroke="currentcolor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                viewBox="0 0 32 32"
+                width="32"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M5 15 L5 30 27 30 27 15 Z M9 15 C9 9 9 5 16 5 23 5 23 9 23 15 M16 20 L16 23"
+                />
+                <circle
+                  cx="16"
+                  cy="24"
+                  r="1"
+                />
+              </svg>
+            </div>
+            <div
+              className="md-form"
+            >
+              <i
+                className="fa fa-none prefix"
+                data-test="fa"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+              />
+              <input
+                className="form-control"
+                data-test="input"
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onInput={[Function]}
+                type="password"
+                value=""
+              />
+              <label
+                className=""
+                data-error=""
+                data-success=""
+                onClick={[Function]}
+              >
+                Password
+              </label>
+            </div>
+            <a
+              className="d-flex  justify-content-end blue-text ml-1"
+              href="/forgot-password"
+              onClick={[Function]}
+            >
+              Forgot password?
+            </a>
+          </div>
+          <div
+            className="text-center py-4 mt-3"
+          >
+            <button
+              className="btn-primary btn Ripple-parent"
+              data-test="button"
+              onClick={[Function]}
+              onMouseUp={[Function]}
+              onTouchStart={[Function]}
+              type="button"
+            >
+              <h4
+                className="float-left mt-1"
+              >
+                Send
+              </h4>
+              <div
+                className="ml-1 float-left"
+              >
+                <svg
+                  fill="none"
+                  height="32"
+                  id="i-signin"
+                  stroke="currentcolor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  viewBox="0 0 32 32"
+                  width="32"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 16 L23 16 M15 8 L23 16 15 24 M21 4 L29 4 29 28 21 28"
+                  />
+                </svg>
+              </div>
+              <div
+                className="Ripple "
+                data-test="waves"
+                style={
+                  Object {
+                    "height": "0px",
+                    "left": "0px",
+                    "top": "0px",
+                    "width": "0px",
+                  }
+                }
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          className="modal-footer mx-5 pt-3 mb-1"
+          data-test="modal-footer"
+        >
+          <a
+            className="blue-text ml-1"
+            href="/create-account"
+            onClick={[Function]}
+          >
+            Create account
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

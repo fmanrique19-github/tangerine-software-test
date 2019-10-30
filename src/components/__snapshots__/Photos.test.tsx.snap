@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Photos Component Should render 3 photos 1`] = `
+<div
+  className="col tangerine-fixed undefined"
+  data-test="col"
+>
+  <div
+    className="jumbotron photo-mobile"
+    data-test="jumbotron"
+  >
+    <div
+      className="photo-mobile-close"
+      onClick={[Function]}
+    >
+      <svg
+        fill="none"
+        height="32"
+        id="i-close"
+        stroke="currentcolor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="2"
+        viewBox="0 0 32 32"
+        width="32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M2 30 L30 2 M30 30 L2 2"
+        />
+      </svg>
+    </div>
+    <ul
+      className="list-group"
+      data-test="list-group"
+    >
+      <a
+        className="list-group-item text-center fixed-title active list-group-item-undefined"
+        data-test="list-group-item"
+        href="#"
+      >
+        <h3>
+          Album's Photos - 
+        </h3>
+      </a>
+      <div
+        className="scrollbar scrollbar-primary"
+      >
+        <div
+          className=""
+          data-test="table"
+          style={
+            Object {
+              "maxHeight": null,
+            }
+          }
+        >
+          <table
+            className="table table-bordered"
+          >
+            <thead
+              className="gray-color"
+              data-test="table-head"
+            >
+              <tr>
+                <th>
+                  Title
+                </th>
+                <th>
+                  Photo
+                </th>
+              </tr>
+            </thead>
+            <tbody
+              data-test="table-body"
+            >
+              <tr>
+                <td>
+                  accusamus beatae ad facilis cum similique qui sunt
+                </td>
+                <td>
+                  <img
+                    alt="accusamus beatae ad facilis cum similique qui sunt"
+                    className="mx-auto d-block rounded"
+                    src="https://via.placeholder.com/150/92c952"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  reprehenderit est deserunt velit ipsam
+                </td>
+                <td>
+                  <img
+                    alt="reprehenderit est deserunt velit ipsam"
+                    className="mx-auto d-block rounded"
+                    src="https://via.placeholder.com/150/771796"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  officia porro iure quia iusto qui ipsa ut modi
+                </td>
+                <td>
+                  <img
+                    alt="officia porro iure quia iusto qui ipsa ut modi"
+                    className="mx-auto d-block rounded"
+                    src="https://via.placeholder.com/150/24f355"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Photos Component Should render a spinner 1`] = `
+<div
+  className="col tangerine-fixed undefined"
+  data-test="col"
+>
+  <div
+    className="d-flex justify-content-center"
+  >
+    <div
+      className="spinner-border"
+      role="status"
+    >
+      <span
+        className="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Photos Component Should render there is no photos available 1`] = `
+<div
+  className="col tangerine-fixed undefined"
+  data-test="col"
+>
+  <div
+    className="jumbotron"
+    data-test="jumbotron"
+  >
+    <h1
+      className="text-center"
+    >
+      There is no photos available
+    </h1>
+  </div>
+</div>
+`;

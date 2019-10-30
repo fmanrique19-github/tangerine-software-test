@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Albums Component Should render 3 albums 1`] = `
+<div
+  className="col"
+  data-test="col"
+>
+  <div
+    className="jumbotron"
+    data-test="jumbotron"
+  >
+    <ul
+      className="list-group"
+      data-test="list-group"
+    >
+      <a
+        className="list-group-item text-center active list-group-item-undefined"
+        data-test="list-group-item"
+        href="#"
+      >
+        <h3>
+          Albums
+        </h3>
+      </a>
+      <a
+        className="list-group-item list-group-item-undefined"
+        data-test="list-group-item"
+        href="#"
+        onClick={[Function]}
+      >
+        quidem molestiae enim
+        <span
+          className="badge primary float-right badge-primary float-right badge-pill"
+          data-test="badge"
+        >
+          1
+        </span>
+      </a>
+      <a
+        className="list-group-item list-group-item-undefined"
+        data-test="list-group-item"
+        href="#"
+        onClick={[Function]}
+      >
+        sunt qui excepturi placeat culpa
+        <span
+          className="badge primary float-right badge-primary float-right badge-pill"
+          data-test="badge"
+        >
+          2
+        </span>
+      </a>
+      <a
+        className="list-group-item list-group-item-undefined"
+        data-test="list-group-item"
+        href="#"
+        onClick={[Function]}
+      >
+        omnis laborum odio
+        <span
+          className="badge primary float-right badge-primary float-right badge-pill"
+          data-test="badge"
+        >
+          3
+        </span>
+      </a>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`Albums Component Should render a spinner 1`] = `
+<div
+  className="col"
+  data-test="col"
+>
+  <div
+    className="d-flex justify-content-center"
+  >
+    <div
+      className="spinner-border"
+      role="status"
+    >
+      <span
+        className="sr-only"
+      >
+        Loading...
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Albums Component Should render there is no albums available 1`] = `
+<div
+  className="col"
+  data-test="col"
+>
+  <div
+    className="jumbotron"
+    data-test="jumbotron"
+  >
+    <h1
+      className="text-center"
+    >
+      There is no albums available
+    </h1>
+  </div>
+</div>
+`;
